@@ -1,0 +1,24 @@
+.ActiveUsers{
+    width: 100%;
+}
+.titleBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.tit-right svg{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.block-view{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.searchBox{
+    display: flex;
+    
+}

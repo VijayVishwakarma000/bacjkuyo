@@ -1,0 +1,108 @@
+.user-container{
+    background-color: lightgray;
+    display: flex;
+    /* padding: 10px; */
+    margin: 5px 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.user-options{
+    display: flex;
+    
+}
+ .user-dropdown{
+    display: none;
+    margin: 5px 5px;
+    transition: 2s ease-in-out height;
+    background-color: gainsboro;
+ }
+ .user-dropdown-visible{
+    display: block;
+    transition: 2s ease-in-out height;
+
+    background-color: gainsboro;
+    margin: 5px 5px;
+ }
+.user-id{
+    
+    width: 10%;
+}
+ .user-name{
+    width: 50%;
+    
+ }
+.user-select{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    /* margin-right: 20px; */
+    background-color: rgb(0, 255, 76);
+
+}
+.user-select input{
+    /* margin: 0 10px; */
+    
+}
+.user-select div{
+}
+.user-options,.user-select,.user-name,.user-time{
+
+}
+.user-options div{
+    cursor: pointer;
+    margin: 0px 5px;
+}
+.user-options{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    justify-content: right;
+    width: 50%;
+    flex-grow: 1;
+}
+.user-options div svg:hover{
+    color: red;
+    
+}
+
+.user-status ,.checkedIn ,.user-validity{
+    width: 15%;
+    text-align: center;
+}
+.drop-data{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+.drop-keys{
+    /* width: 15%; */
+    background-color: antiquewhite;
+    padding: 12px;
+}
+
+.drop-values{
+    padding: 12px;
+    width: 100%;
+    background-color: aliceblue;
+}
+.flexy{
+    display: flex;
+    width: 100%;
+}
+.drop-btns{
+    padding: 5px;
+}
+.drop-btns button{
+    outline: none;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 30px;
+    margin: 0px 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.drop-btns button:hover{
+    background-color: rgba(0, 0, 0, 0.89);
+}
